@@ -1,0 +1,24 @@
+{
+  "name": "tablero",
+  "version": "1.0.0",
+  "description": "Tablero en tiempo real para dibujar",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build-js": "browserify cliente/app.js -o publico/app.js && npm start"
+  },
+  "keywords": [
+    "dibujemos"
+  ],
+  "author": "Felipe Arango",
+  "license": "ISC",
+  "dependencies": {
+    "course": "0.0.1",
+    "domify": "^1.4.0",
+    "path": "^0.12.7",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7",
+    "st": "^1.0.0",
+    "uuid": "^2.0.1"
+  }
+}
